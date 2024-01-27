@@ -1,0 +1,116 @@
+@media screen and (min-width:320px) and (max-width:425px){
+    header .container h3{
+    
+      margin-left: 20px;
+    }
+    main {
+      display: flex;
+    }
+    main .container-top{
+      display: flex;
+      flex-direction: column;
+      padding: 25px 15px;
+    }
+    main .container-left{
+      width: 100%;
+      padding: 20px;
+    }
+    .container-left .center{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-left .center .center-left{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .center .center-left div{
+      display: flex;
+      flex-direction: column;
+    }
+    .center .center-left div input{
+      width: 100%;
+    }
+    .container-left .center .center-right{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .center .center-right div{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-left .center .center-right div input{
+      width: 100%;
+    }
+    .container-left .custom{
+      width: 100%;
+    }
+    .container-left .custom div{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-left .custom div input{
+      width: 100%;
+    }
+    .container-left .item .item-top{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .container-left .item .item-top .item-top-1{
+      width: 100%;
+    }
+    .item-top .item-top-1 input{
+      width: 100%;
+    }
+    .container-left .item .item-top .itme-right{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-left .item .item-top .itme-right label{
+      display: none;
+    }
+    .container-left .item .item-top .itme-right input{
+      width: 100%;
+      margin-left: 0;
+    }
+    .itme-right .icon i{
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    .bottom{
+      flex-direction: column;
+    }
+    .bottom .b-left{
+      width: 100%;
+    }
+    .bottom .b-right{
+      width: 100%;
+    }
+    main .container-right{
+      width: 100%;
+    }
+    main .container-bottom{
+      margin: 0 15px;
+    }
+    main .container-bottom div{
+      width: 80%;
+    }
+    main .bb{
+      flex-direction: column;
+      align-items: center;
+    }
+    main .bb .bb-left{
+      flex-direction: column;
+    }
+    main .bb .bb-left h3:after{
+      display: none;
+    }
+    main .bb .bb-left h4{
+      margin-top: -30px;
+    }
+    .bb .bb-right{
+      margin-top: 10px;
+    }
+}
